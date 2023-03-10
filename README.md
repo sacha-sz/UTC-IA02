@@ -28,3 +28,5 @@ Les TPs sont réalisés en Python
 
 ## :bookmark_tabs: - Références
 - **Lien moodle vers le cours**, (nécessite d'être connecté pour y accéder): [UTC-IA02](https://moodle.utc.fr/course/view.php?id=20)
+- **Documentation Python 3**, [URL](https://docs.python.org/fr/3.7/)
+- **Tutoriel Python 3**, [URL](https://docs.python.org/fr/3.7/tutorial/)
