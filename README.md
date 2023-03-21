@@ -30,7 +30,8 @@ Les TPs sont réalisés en Python
 .   .   .   ├── sudoku.cnf
 .   .   .   └── zebra_v155_c1135.cnf
 .   .   ├── coloration.cnf
-.   .   └── coloration.py
+.   .   ├── coloration.py
+.   .   └── TP2-Utilisation_de_solveurs_SAT.pdf
 .   └── ...
 ```
 ## :technologist: - Langage utilisé
