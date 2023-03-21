@@ -2,4 +2,4 @@
 * text=auto
 
 # Detect HTML files and perform LF normalization
-*.html text
+*.html text diff=html
