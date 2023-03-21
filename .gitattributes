@@ -1,5 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-
-# Detect HTML files and perform LF normalization
-*.html text diff=html
