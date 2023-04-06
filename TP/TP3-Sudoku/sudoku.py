@@ -34,14 +34,17 @@ def recuperation_grille():
     fini = False
     grille = []
 
-    while (not fini):
-        print("Veuillez-entrez la valeur de la case : [format a1X]")
-        valeur = input()
-
-        if len(valeur) == 3 and valeur[0] in alphabet:
-            grille.append(valeur)
-
-        fini = int(input("Voulez-vous continuer ? [0 : non; 1:oui] : ")) == 0
+    for lettre in alphabet:
+            for i in range(1, 10):
+                fini = False
+                while (not fini) :
+                    valeur = input(f"Veuillez-entrez la valeur de la case {lettre}{i} : ")
+                    try : 
+                        if int(valeur) in range(1,10):
+                            grille.append(lettre + str(i) + valeur)
+                            fini = True
+                    except ValueError:
+                        pass
 
     return grille
 
