@@ -64,6 +64,6 @@ Les TPs sont réalisés en Python
 
 ## Aide
 
-Si vous télécharger SWI-Prolog sur votre ordinateur, voici les codes à saisir pour ouvrir le fichier *.pl :
+Si vous téléchargez SWI-Prolog sur votre ordinateur, voici les codes à saisir pour ouvrir le fichier *.pl :
 > swipl
 > consult("*.pl")
