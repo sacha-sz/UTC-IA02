@@ -3,7 +3,7 @@
 Contient les codes de TP de l'UV IA02 de l'Université de Technologie de Compiègne.
 Les TPs sont réalisés en Python
 
-## :card_index_dividers: - Arborescence du projet
+## :card_index_dividers: - Arborescence du dépôt
 
 ```
 .
