@@ -36,6 +36,15 @@ Les TPs sont réalisés en Python
 .   .   ├── coloration.cnf
 .   .   ├── coloration.py
 .   .   └── TP2-Utilisation_de_solveurs_SAT.pdf
+.   ├── TP3-Prolog
+.   .   ├── grille_test.png
+.   .   ├── objectif_sudolu.cnf
+.   .   ├── Sudoku_with_solution.png
+.   .   ├── sudoku.cnf
+.   .   ├── sudoky.py
+.   .   └── sudoky.txt
+.   ├── TP4-Mastermind
+.   .   └── Mastermind-Game.pl
 .   └── ...
 ```
 
