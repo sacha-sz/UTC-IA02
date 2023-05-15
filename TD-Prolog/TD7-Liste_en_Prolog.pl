@@ -144,10 +144,9 @@ retire_doublons([X|Q], [X|R]) :-
 
 % union(+E1, +E2, -E) qui effectue l’union de l’ensemble E1 avec l’ensemble E2 et place
 % le résultat dans E .
-union([], E2, E2_temp) :-
-    retire_doublons(E2, E2_temp).
+union([], E2, E2).
 
-union([X|Q], E2, E) :-
+union([X|Q], E2, E) :- 
     element(X, E2),
     union(Q, E2, E).
 
@@ -162,4 +161,10 @@ intersection([], _, []).
 
 intersection([X|Q], E2, [X|E]) :-
     element(X, E2),
-    intersection(Q, E2, E).
+    intersection(Q, E2, E),
+    !.
+
+intersection([X|Q], E2, E) :-
+    \+ element(X, E2),
+    intersection(Q, E2, E),
+    !.
